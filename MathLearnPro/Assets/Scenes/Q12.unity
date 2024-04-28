@@ -253,7 +253,7 @@ Transform:
   m_GameObject: {fileID: 514151189}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 0, y: 0, z: -0.64}
+  m_LocalPosition: {x: 0, y: -1, z: -0.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -268,11 +268,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 514151189}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7eff07f2e1bc67468ab446a4eeab90e, type: 3}
+  m_Script: {fileID: 11500000, guid: 216afb192eff2494a8517822c36f9e96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 514151190}
-  ReflectObj: {fileID: 2113565020}
 --- !u!1 &639274378
 GameObject:
   m_ObjectHideFlags: 0
@@ -694,7 +692,7 @@ Transform:
   m_GameObject: {fileID: 2113565014}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 4.8, y: 0, z: 1.7}
+  m_LocalPosition: {x: 4.8, y: -1, z: 1.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -709,9 +707,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2113565014}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 216afb192eff2494a8517822c36f9e96, type: 3}
+  m_Script: {fileID: 11500000, guid: 9fc0d91bcd4329945a704c0d1f4cf90f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Target: {fileID: 514151194}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
